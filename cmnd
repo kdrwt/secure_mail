@@ -1,11 +1,18 @@
-git config --global user.email "rawatkd143@gmail.com"
-git config --global user.name "rwtkd"
+git config --global user.email "rawatkd143@gmail.com" //for configuration
+git config --global user.name "rwtkd" //for configuration
 
-git init
-git add [filename] -A
-git status
-git commit -m "msg"
-git remote add origin repoName
-git push origin master
-git clone repoName
-git pull origin master
+git init  //starting project
+git add [filename] -A //if you want to add file in you git
+git status // check file status
+git commit -m "msg" //commit use for snapshots
+git remote add origin repoName //which repository do you want add your file
+git push origin master // push your file your current repository
+git clone repoName    //when you want retrieve your project or file from git add your repository name here
+git pull origin master //this cmd use for retrieve file or project from git to local storage
+
+/*how to create new branc in git hub*/
+git branch branch1 //add first branch
+git branch branch2 //add second branch
+git checkout branch2 //switch to our work location and work directory 
+git ls // check your file no.
+git merge branch_name //if you want to merge your file with live project and master file
